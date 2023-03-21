@@ -9,35 +9,35 @@ void print_alphabet_x10(void)
 
 {
 
-        char ch;
+	char ch;
 
-        int i;
-
-
-        i = 0;
+	int i;
 
 
-        while (i < 10)
+	i = 0;
 
-        {
 
-                ch = 'a';
+	while (i < 10)
 
-                while (ch <= 'z')
+	{
 
-                {
+		ch = 'a';
 
-                        _putchar(ch);
+		while (ch <= 'z')
 
-                        ch++;
+		{
 
-                }
+			_putchar(ch);
 
-                _putchar('\n');
+			ch++;
 
-                i++;
+		}
 
-        }
+		_putchar('\n');
+
+		i++;
+
+	}
 
 }
 
