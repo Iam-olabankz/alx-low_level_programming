@@ -1,0 +1,26 @@
+#include "main.h"
+#include <string.h>
+#include <stdlib.h>
+
+/**
+ * string_toupper - convert string to upper case
+ * @str: pointer to string to be converted
+ *
+ * Return: pointer to converted string
+ *
+ * Created by: Iam-olabankz
+ * cc: 29th March, 2023.
+ */
+
+char *string_toupper(char *str)
+{
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		if (str[i] >= 'a' && str[i] <= 'z')
+			str[i] = str[i] - 32;
+	}
+
+	return (str);
+}
