@@ -1,4 +1,4 @@
-0x07. C - Even more pointers, arrays and strings
+Project Title: 0x07. C - Even more pointers, arrays and strings
 By Julien Barbier
 Concepts
 For this project, students are expected to look at this concept:
@@ -38,8 +38,7 @@ Don't forget to push your header file
 Tasks
 0. memset
 mandatory
-
-1. Write a function that fills memory with a constant byte.
+Write a function that fills memory with a constant byte.
 
 Prototype: char *_memset(char *s, char b, unsigned int n);
 The _memset() function fills the first n bytes of the memory area pointed to by s with the constant byte b
@@ -127,8 +126,7 @@ File: 0-memset.c
 
 1. memcpy
 mandatory
-
-2. Write a function that copies memory area.
+Write a function that copies memory area.
 
 Prototype: char *_memcpy(char *dest, char *src, unsigned int n);
 The _memcpy() function copies n bytes from memory area src to memory area dest
@@ -217,8 +215,7 @@ File: 1-memcpy.c
 
 2. strchr
 mandatory
-
-3. Write a function that locates a character in a string.
+Write a function that locates a character in a string.
 
 Prototype: char *_strchr(char *s, char c);
 Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
@@ -260,8 +257,7 @@ File: 2-strchr.c
 
 3. strspn
 mandatory
-
-4. Write a function that gets the length of a prefix substring.
+Write a function that gets the length of a prefix substring.
 
 Prototype: unsigned int _strspn(char *s, char *accept);
 Returns the number of bytes in the initial segment of s which consist only of bytes from accept
@@ -300,8 +296,7 @@ File: 3-strspn.c
 
 4. strpbrk
 mandatory
-
-5. Write a function that searches a string for any of a set of bytes.
+Write a function that searches a string for any of a set of bytes.
 
 Prototype: char *_strpbrk(char *s, char *accept);
 The _strpbrk() function locates the first occurrence in the string s of any of the bytes in the string accept
