@@ -9,7 +9,7 @@
  *
  * Return: pointer to the 2-D array
  *
- * Created by: Samson Olayemi Elijah 
+ * Created by: Samson Olayemi Elijah
  * cc: 11th April, 2023.
  */
 
