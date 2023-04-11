@@ -7,7 +7,7 @@
  * @grid: pointer to 2-D array
  * @row: row of the array
  *
- * Created by: Samson Olayemi Elijah 
+ * Created by: Samson Olayemi Elijah
  * cc: 11th April, 2023.
  */
 
