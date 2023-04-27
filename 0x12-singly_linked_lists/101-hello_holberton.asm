@@ -1,13 +1,10 @@
-#include <stdio.h>
+global   main
+extern    printf
+main:
+mov   edi, format
+xor   eax, eax
+call  printf
+mov   eax, 0
+ret
+format: db `Hello, Holberton\n`,0
 
-void myStartupFun(void) __attribute__ ((constructor));
-
-/**
- * myStartupFun - function runs before main function
- */
-
-void myStartupFun(void)
-{
-	printf("You're beat! and yet, you must allow,\nI");
-	printf(" bore my house upon my back!\n");
-}
